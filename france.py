@@ -8,7 +8,7 @@ print(f'They are {", ".join(france_names)}.')
 
 path = find_shortest_path(country_border_graph, 'FR', 'CN')
 path_names = [country_code_lookup[code] for code in path]
-print(f'The shortest path from France to China is {" -> ".join(path_names)}.')
+print(f'The shortest path from France to China is: {" -> ".join(path_names)}.')
 
 from_verts = []
 to_verts = []
