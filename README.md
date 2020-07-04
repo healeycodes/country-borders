@@ -14,7 +14,7 @@ This repository shows some examples of:
 
 ### All the countries that France touches
 
-`france.py` generates the graph and outputs:
+`france.py` builds a graph and dynamically outputs:
 
 ```
 France is connected to 8 countries.
