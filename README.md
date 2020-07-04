@@ -1,6 +1,6 @@
 # country-borders
 
-A weekend experiment with networked graphs using country land borders as a dataset.
+A Saturday experiment with networked graphs using country land borders as a dataset.
 
 <br>
 
@@ -14,7 +14,7 @@ This repository shows some examples of:
 
 ### All the countries that France touches
 
-`france.py` outputs:
+`france.py` generates the graph and outputs:
 
 ```
 France is connected to 8 countries.
@@ -22,11 +22,15 @@ They are Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerlan
 The shortest path from France to China is: France -> Germany -> Poland -> Russian Federation -> China.
 ```
 
+and displays:
+
 ![A networked graph of all the countries that France touches](https://github.com/healeycodes/country-borders/blob/master/france-connections.png)
 
 <br>
 
 ### The non-islands of the world
+
+`non-islands.py`
 
 ![A networked graph of all the non-islands -- it's a little squished together](https://github.com/healeycodes/country-borders/blob/master/squished-non-islands.png)
 
