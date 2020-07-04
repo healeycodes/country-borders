@@ -1,6 +1,6 @@
 # country-borders
 
-A Saturday experiment with networked graphs using country land borders as a dataset.
+A fun experiment with networked graphs and country land borders.
 
 <br>
 
