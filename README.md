@@ -14,6 +14,14 @@ This repository shows some examples of:
 
 ### All the countries that France touches
 
+`france.py` outputs:
+
+```
+France is connected to 8 countries.
+They are Andorra, Belgium, Germany, Italy, Luxembourg, Monaco, Spain, Switzerland.
+The shortest path from France to China is: France -> Germany -> Poland -> Russian Federation -> China.
+```
+
 ![A networked graph of all the countries that France touches](https://github.com/healeycodes/country-borders/blob/master/france-connections.png)
 
 <br>
