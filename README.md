@@ -2,6 +2,8 @@
 
 > My blog post: https://healeycodes.com/practical-intro-to-graphs/
 
+<br>
+
 Calculating the path between two countries with the least border crossings.
 
 <br>
