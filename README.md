@@ -15,7 +15,7 @@ This repository shows some examples of:
 
 ### The shortest path between France and China
 
-`fr-to-cn.py` builds a graph and dynamically outputs:
+`fr-to-cn.py` builds multiple graphs and dynamically outputs:
 
 ```
 France is connected to 8 countries.
@@ -31,7 +31,7 @@ and displays:
 
 ### The non-islands of the world
 
-`non-islands.py`
+`non-islands.py` builds the same graphs, culls the islands, and displays:
 
 ![A networked graph of all the non-islands](https://github.com/healeycodes/country-borders/blob/master/squished-non-islands.png)
 
