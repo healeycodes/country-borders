@@ -12,7 +12,6 @@ print(f'The shortest path from France to China is: {" -> ".join(path_names)}.')
 
 from_verts = []
 to_verts = []
-path.reverse()
 
 for i in range(1, len(path)):
     from_verts.append(path[i-1])
