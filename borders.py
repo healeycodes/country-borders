@@ -1,5 +1,5 @@
 import csv
-from collections import Iterable, deque
+from collections import Iterable
 
 
 def flatten(l):
@@ -18,9 +18,9 @@ def find_shortest_path(graph, start, end):
     # adapted from https://www.python.org/doc/essays/graphs/
 
     dist = {start: [start]}
-    q = deque([start])
+    q = [start]
     while len(q):
-        at = q.popleft()
+        at = q.pop(0)
         for country in graph[at]:
             if country not in dist:
                 dist[country] = [dist[at], country]

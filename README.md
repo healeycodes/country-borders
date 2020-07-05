@@ -6,15 +6,16 @@ A fun experiment with networked graphs and country land borders.
 
 This repository shows some examples of:
 
+- Consuming CSV data and building multiple graphs
 - Displaying graphs with `networkx`/`matplotlib.pyplot`
-- Finding the shortest path (BFS) between vertices (e.g. France to China)
+- Finding the shortest path (Breadth-First Search) between vertices (e.g. France to China)
 - Building a graph of all the non-islands of the world
 
 <br>
 
-### All the countries that France touches
+### The shortest path between France and China
 
-`france.py` builds a graph and dynamically outputs:
+`fr-to-cn.py` builds a graph and dynamically outputs:
 
 ```
 France is connected to 8 countries.
@@ -24,7 +25,7 @@ The shortest path from France to China is: France -> Germany -> Poland -> Russia
 
 and displays:
 
-![A networked graph of all the countries that France touches](https://github.com/healeycodes/country-borders/blob/master/france-connections.png)
+![A line of nodes, FR-DE-PL-RU-CN](https://github.com/healeycodes/country-borders/blob/master/fr-to-cn.png)
 
 <br>
 
@@ -32,7 +33,7 @@ and displays:
 
 `non-islands.py`
 
-![A networked graph of all the non-islands -- it's a little squished together](https://github.com/healeycodes/country-borders/blob/master/squished-non-islands.png)
+![A networked graph of all the non-islands](https://github.com/healeycodes/country-borders/blob/master/squished-non-islands.png)
 
 <br>
 

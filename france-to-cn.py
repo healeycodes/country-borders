@@ -12,8 +12,10 @@ print(f'The shortest path from France to China is: {" -> ".join(path_names)}.')
 
 from_verts = []
 to_verts = []
-for i in range(0, len(france)):
-    from_verts.append('FR')
-    to_verts.append(country_border_graph['FR'][i])
+path.reverse()
+
+for i in range(1, len(path)):
+    from_verts.append(path[i-1])
+    to_verts.append(path[i])
 
 graph.show(from_verts, to_verts)
