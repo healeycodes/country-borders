@@ -1,6 +1,8 @@
 # country-borders
 
-A fun experiment with networked graphs and country land borders.
+> My blog post: https://healeycodes.com/practical-intro-to-graphs/
+
+Calculating the path between two countries with the least border crossings.
 
 <br>
 
